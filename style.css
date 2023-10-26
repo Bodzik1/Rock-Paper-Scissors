@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #f1a66a;
+}
+
+div.title-container {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f26157;
+}
+
+div.title-container h1 {
+  color: #582630;
+  font-size: 50px;
+}
+
+div.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #582630;
+  margin-top: 50px;
+}
+
+div#btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  gap: 30px;
+}
+
+div#btn button {
+  background-color: #f26157;
+  border: none;
+  border-radius: 8px;
+  padding: 50px 50px;
+}
