@@ -27,10 +27,29 @@ div.text {
   margin-top: 50px;
 }
 
+div.images {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+div.texts {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+div.texts p.push {
+  margin-left: 25px;
+}
+
+div.images img {
+  width: 75px;
+}
+
 div#btn {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
   gap: 30px;
 }
 
